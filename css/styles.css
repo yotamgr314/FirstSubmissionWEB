@@ -1,29 +1,27 @@
 /* HERE GOES THE WEB CSS CODE */
 
-
-
 /* HERE GOES THE MOBILE CSS */
 @media(max-width: 360px)
 {
     .mainClass {
-        display:flex;
+        display: flex;
         flex-direction: column;
     }
     
     .headerClass {
-        display:flex;
+        display: flex;
     }
     
     .mapClass {
-        display:flex;
+        display: flex;
         flex-direction: column;
     }
     
     .footerClass {
-        display:flex;
+        display: flex;
     }
 
-    .paragraphF14{
+    .paragraphF14 {
         font-size: 14px;
         color: black;
         font-weight: bold;
@@ -31,12 +29,11 @@
         margin-left: -6px;
     }
 
-    .imageLogoClass 
-    {background-image: url(../images/pawLinkLogo.svg);
+    .imageLogoClass {
+        background-image: url('images/pawLinkLogo.svg');
         display: flex;
         width: 68px;
         height: 50px;
         background-repeat: no-repeat;
     }
 }
-/* adsaddasds */
